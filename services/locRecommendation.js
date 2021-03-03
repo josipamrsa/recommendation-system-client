@@ -4,8 +4,8 @@
 import axios from 'axios';
 
 //----API pozivi----//
-const locateUrl = 'http://192.168.43.71:3001/api/locate'; // jer nije na istom!! stoga ne moze localhost
-const recommendUrl = 'http://192.168.43.71:3001/api/recommendation';
+const locateUrl = 'https://recommendation-system-server.herokuapp.com/api/locate'; // jer nije na istom!! stoga ne moze localhost
+const recommendUrl = 'https://recommendation-system-server.herokuapp.com/api/recommendation';
 
 //----METODE----//
 
