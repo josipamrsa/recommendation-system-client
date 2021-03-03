@@ -82,6 +82,7 @@ const PreporukaUpit = () => {
         lokacijaServis.locirajPotencijalneKandidate(lokacija, radijus)
             .then((response) => {
                 // nakon toga zatraži računanje podobnosti kandidata na temelju recenzija
+                console.log(response.data);
                 lokacijaServis.dobijPreporuceneKandidate(response.data, upit)
                     .then((response) => {
                         // na kraju dohvati i postavi rezultate za prikaz

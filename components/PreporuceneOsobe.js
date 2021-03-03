@@ -14,6 +14,7 @@ const PreporuceneOsobe = (props) => {
                     <View key={rez.id} style={styles.kartica}>
                         <Text>Name: {rez.name}</Text>
                         <Text>Similarity score: {rez.score}</Text>
+                        <Text>Distance from user: {rez.distance}</Text>
                     </View>
                 )}
             </ScrollView>
